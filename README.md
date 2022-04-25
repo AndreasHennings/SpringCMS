@@ -15,4 +15,5 @@ Before using, the Database must be started. On Windows, psql.exe can be used. Na
 After the project is started, a Tomcat Server that can be reached via Localhost:8080/api/v1/student, which will reply with an empty list.
 CRUD methods can be found in StudentController.java file.
 
-## 4. This software is for testing purposes only and has no warranty whatsoever.
+## 4. Warranty
+This software is for testing purposes only and has no warranty whatsoever.
