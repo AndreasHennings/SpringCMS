@@ -14,6 +14,13 @@ application.properties file. The Database is configured to drop all data at rest
 Before using, the Database must be started. On Windows, psql.exe can be used. Name/Password is postgres/admin.
 After the project is started, a Tomcat Server that can be reached via Localhost:8080/api/v1/student, which will reply with an empty list.
 CRUD methods can be found in StudentController.java file.
+### Examples:
+GET http://localhost:8080/api/v1/student
+POST http://localhost:8080/api/v1/student Content-Type: application/json {"name": "TestFN","email": "abc@def.gh","dob": "1988-12-01"}
+DELETE http://localhost:8080/api/v1/student/[STUDENT-ID]
+PUT http://localhost:8080/api/v1/student/[STUDENT-ID]?name=[NEW NAME]
+
+
 
 ## 4. Warranty
 This software is for testing purposes only and has no warranty whatsoever.
